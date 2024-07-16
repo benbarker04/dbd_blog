@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-wv-d6=by9en3#+y_@9s)bm&hv4(&ys*5da7&f$-u_t6(9q7@y&'
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -35,6 +35,14 @@ ALLOWED_HOSTS = [
     '.herokuapp.com',
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    'https://8000-benbarker04-dbdblog-tkutau72mfd.ws.codeinstitute-ide.net'
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-benbarker04-dbdblog-tkutau72mfd.ws.codeinstitute-ide.net',
+    'https://*.heroku.app'
+]
 
 # Application definition
 
@@ -45,6 +53,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
 
     'blog',
 ]
@@ -52,12 +61,14 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 ROOT_URLCONF = 'codestar.urls'
 

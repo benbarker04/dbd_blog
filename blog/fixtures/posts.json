@@ -1,0 +1,30 @@
+[
+    {
+        "model": "blog.post",
+        "pk": null,
+        "fields": {
+            "title": "DEAD BY DAYLIGHT’S MYTHIC TOME EXPLORES YUI KIMURA & THE SPIRIT",
+            "slug": "DEAD-BY-DAYLIGHT’S-MYTHIC-TOME-EXPLORES-YUI-KIMURA-&-THE-SPIRIT",
+            "author": 1,
+            "content": "<p><b>Dead by Daylight’s Tome 20: MYTHIC uncovers new memories for Yui Kimura, The Spirit, and the House of Arkham.Progress through the Rift and beyond, completing brand-new gameplay Challenges, unlocking Charms, and earning mythical Outfits for Yui Kimura, The Spirit, The Clown, David King, Sable Ward, and the latest newcomer to The Fog: Lara Croft.</p>",
+            "created_on": "2023-07-14T13:58:53.884Z",
+            "status": 1,
+            "excerpt": "Dead by Daylight’s Tome",
+            "updated_on": "2023-09-13T09:43:19.754Z"
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": null,
+        "fields": {
+            "title": "DEAD BY DAYLIGHT’S CROSS PROGRESSION IS COMING",
+            "slug": "DEAD-BY-DAYLIGHT’S-CROSS-PROGRESSION-IS-COMING",
+            "author": 1,
+            "content": "<p>Cross-Progression is coming to Dead by Daylight, and we’ve got you covered with everything you need to know about the anticipated feature.Set to go live on July 22nd, Cross-Progression allows players to sync their Dead by Daylight progress across all available platforms (with select exceptions).</p>",
+            "created_on": "2023-07-14T14:00:47.759Z",
+            "status": 1,
+            "excerpt": "Cross Progression",
+            "updated_on": "2023-09-13T09:41:53.636Z"
+        }
+    }
+]

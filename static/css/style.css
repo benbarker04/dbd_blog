@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.dark-bg {
+    background-color: rgb(39, 39, 39);
+}
+
+.white-text {
+    color: white !important;
+}
+
+.black-text {
+    color: rgb(39, 39, 39) !important;
+}
+
+.main-bg {
+    background-color: #F9FAFC;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-flash {
+    position: absolute;
+    bottom: 5%;
+    min-width: 30%;
+    left: -2px;
+    background-color: rgb(39, 39, 39);
+}
+
+.scale {
+    width: 100%;
+    height: auto;
+}
+
+.author {
+    color: white;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.post-link:hover {
+    text-decoration: underline rgb(39, 39, 39) !important;
+}
+
+.post-title {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.post-subtitle {
+    margin-left: 5%;
+    color: lightgray;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #fff;
+    color: #23BBBB;
+}
+
+.link:hover,
+.link:active {
+    color: #445261;
+    text-decoration: underline;
+}
+
+.btn-like {
+    color: #E84610;
+    border: none;
+    background: transparent;
+}
+
+.btn-delete {
+    color: #fff;
+    background: #E84610;
+}
+
+.btn-like:hover,
+.btn-like:active {
+    color: #E84610;
+    background: transparent;
+    border: none;
+}
+
+.faded {
+    color: rgb(172, 175, 175);
+}
+
+.approval {
+    color: rgb(222, 146, 168);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

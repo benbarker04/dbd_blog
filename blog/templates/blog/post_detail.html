@@ -60,9 +60,9 @@
           {% endif %}
           {% if user.is_authenticated and comment.author == user %}
           <button class="btn btn-delete btn-danger"
-            comment_id="{{ comment.id }}">Delete</button>
+            data-comment_id="{{ comment.id }}">Delete</button>
           <button class="btn-edit btn btn-dark"
-            comment_id="{{ comment.id }}">Edit</button>
+            data-comment_id="{{ comment.id }}">Edit</button>
           {% endif %}
         </div>
         {% endfor %}

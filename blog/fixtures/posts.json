@@ -26,5 +26,33 @@
             "excerpt": "Cross Progression",
             "updated_on": "2023-09-13T09:41:53.636Z"
         }
+    },
+    {
+        "model": "blog.post",
+        "pk": null,
+        "fields": {
+            "title": "Unpopular opinion: Add an option to disable voice lines",
+            "slug": "Unpopular-opinion:Add-an-option-to-disable-voice-lines",
+            "author": 1,
+            "content": "<p><b>Ever since, I think, Pinhead, voice lines have become more and more popular, to the point where almost every single new character has some lines. I personally, do not get the hype for the amount of them. If they felt luxurious and in special moments, like during a mori, for example, sure, it would be rare and it would be fine for me.As Lara Croft is now the most recent addition, I'll use her as an example, of why I want this. I have liked Lara Croft as a character for many years through her own games and movies, so I was excited to play as her, but hearing 'Oh, No', 'Bollocks'. 'No, no, no' EVERY. SINGLE. TIME a chase starts, gets super annoying after like 3 games and I never want to touch that character ever again.If voice lines is the future and almost every character will have them, please for the love that's all holy, add an option to not have them on at all times.</p>",
+            "created_on": "2023-07-14T13:58:53.884Z",
+            "status": 1,
+            "excerpt": "Disable voice lines",
+            "updated_on": "2023-09-13T09:43:19.754Z"
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": null,
+        "fields": {
+            "title": "Assuming you play as optimally as possible, how much time in a match could theoretically be consumed by Nightfall?",
+            "slug": "Assuming-you-play-as-optimally-as-possible,how-much-time-in-a-match-could-theoretically-be-consumed-by-Nightfall?",
+            "author": 1,
+            "content": "<p><b>If keeping Nightfall active was your #1 priority, how would you go about it? Field Recorder gives you that immediate one at the start and one at the end (assuming one isn't already going). Malthinker Skull allows it to proc more often. Broken Doll extends it by 20sec each time. Etc. He's got stuff to manipulate it.Assuming you play as optimally as possible, how much time in a match could theoretically be consumed by Nightfall?</p>",
+            "created_on": "2023-07-14T13:58:53.884Z",
+            "status": 1,
+            "excerpt": "How much time in a match could be consumed by nightfall?",
+            "updated_on": "2023-09-13T09:43:19.754Z"
+        }
     }
 ]

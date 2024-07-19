@@ -130,6 +130,10 @@ a {
     transition: box-shadow .15s ease-in-out;
 }
 
+.underline {
+    text-decoration: underline !important;
+}
+
 .footer {
     position: fixed;
     bottom: 0;

@@ -1,131 +1,89 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Ben's Dead By Daylight Blog
 
-Welcome Ben Barker,
+Ben's Dead By Daylight Blog is a website for all things related to the asymmetrical multiplayer horror game, Dead by Daylight. Ben's Dead By Daylight Blog offers a friendly welcoming enviroment for people to get involved in the community and share their thoughts on the game.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![amiresponisive png](https://github.com/user-attachments/assets/fc26f84c-f71e-4bbc-9f99-876e04d96d33)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## Features
+* Navigation
+  - Featured at the top of the page, is the blog name in the left corner: Ben's Dead By Daylight Blog which links to the top of the home page from whatever page you are on.
+  - To the right is the navigation bar for Home, Register and Log in which links to the other pages of the website.
+  - The navigation bar indicates if the user is logged in or not, changing accordingly to reflect the user's status.
 
-## Gitpod Reminders
+### Logged out Navigation Bar
+ 
+![loggedoutnav](https://github.com/user-attachments/assets/cdbb7604-2723-4f72-b9c3-00357e5d1158)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Logged In Navigation Bar
 
-`python3 -m http.server`
+![loggedinnav](https://github.com/user-attachments/assets/e70dea40-1425-4e7a-9dca-9a7e868e7b38)
 
-A blue button should appear to click: _Make Public_,
+* The Home Page
+  - the home page includes a paginated list of the posts
+  - Each post on the home page shows the user the title of the post, an excerpt of the post and when the post was created.
 
-Another blue button should appear to click: _Open Browser_.
+![content](https://github.com/user-attachments/assets/f93cd377-35ce-4d6d-87cd-7129dd384e06)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+* The Post Detail Page
+  - The post detail page has all the information for the post that you would see on the home page but it also shows you the content of the post.
+  - Underneath the post is the comment section where the community can comment on the post to share their thoughts.
+  - When a user comments it will not be posted for others to see until it has been approves by the site admin.
+  - the user has the ability to delete or edit their comment. 
 
-A blue button should appear to click: _Make Public_,
+![postdetail](https://github.com/user-attachments/assets/bf7b6302-3add-44b2-a82e-713f240d8cae)
 
-Another blue button should appear to click: _Open Browser_.
+* The Log In Page
+  - The login page lets the user login to Ben's Dead By Daylight Blog.
+  - A message will appear if the form is left empty and the user tries to submit it or if the username and/or password is incorrect.
+  - If the user does not have an account there is a link to the register page so that the user can sign up.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![loginpage](https://github.com/user-attachments/assets/d9060ca5-4c39-4532-a83a-ba073931369e)
 
-To log into the Heroku toolbelt CLI:
+* Register Page
+  - The Register page has a form to collect details from the user so they can sign up to be apart of Ben's Dead By Daylight Blog community and comment on posts.
+  - The form collects the username, password and email address.
+  - If the form is left empty or password is too short, password is too common or the password is entirely numeric a message will appear saying so.
+  - There is a link to the login page for if the user already has an account.
+ 
+![signuppage](https://github.com/user-attachments/assets/cf04fbcf-9d57-4136-8530-04503911f985)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+* The Footer
+  - The footer includes social media icons so users can find Ben's Dead By Daylight Blog on Facebook, Twitter and Instagram
+ 
+![footer](https://github.com/user-attachments/assets/fe5f8f3e-3122-418c-9dbd-5524f4dc3805)
 
-### Connecting your Mongo database
+## Testing
+* I tested that this page works on different browsers: Chrome, Microsoft Edge and Safari
+* I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the dev tools device toolbar.
+* I have confirmed that all sections and pages are all readable and easy to understand.
+* I have confirmed that the form works: requires entry in every field.
+* I have run tests using automated testing and confirmed everything being tested works.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+## Bugs
 
-------
+* When I deployed my project to heroku I discovered that there were no bugs and therefore didn't need to fix any.
 
-## Release History
+* HTML
+  - No errors were returned when passing through the official W3C validator.
+ 
+*CSS
+  - No errors were found when passing through the official (Jigsaw) validator
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+*Accessibility
+  - I have confirmed that the fonts and colours chosen are easy to read and accessible by running it through the lighthouse in dev tools.
 
-**June 18, 2024,** Add Mongo back into template
+![dbdlighthouse](https://github.com/user-attachments/assets/10155e75-05ba-4b78-a2e3-dc801dc793cc)
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+## Deployment
 
-**May 28 2024:** Fix Mongo and Links installs
+his project was deployed using Heroku by doing the following:
+- Creating a new Heroku app.
+- Linking the Heroku app to the Github repository.
+- Click on **Deploy**.
 
-**April 26 2024:** Update node version to 16
+The live link can be found here- [Ben's Dead By Daylight Blog](https://dead-by-daylight-blog-91f72895ccd4.herokuapp.com/)
 
-**September 20 2023:** Update Python version to 3.9.17.
+## Credits
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+All code was taught to me by [Code Institue](https://learn.codeinstitute.net/dashboard).

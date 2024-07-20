@@ -27,8 +27,8 @@ Ben's Dead By Daylight Blog is a website for all things related to the asymmetri
 * The Post Detail Page
   - The post detail page has all the information for the post that you would see on the home page but it also shows you the content of the post.
   - Underneath the post is the comment section where the community can comment on the post to share their thoughts.
-  - When a user comments it will not be posted for others to see until it has been approves by the site admin.
-  - the user has the ability to delete or edit their comment. 
+  - When a user comments it will not be posted for others to see until it has been approved by the site admin.
+  - The user has the ability to delete or edit their comment. 
 
 ![postdetail](https://github.com/user-attachments/assets/bf7b6302-3add-44b2-a82e-713f240d8cae)
 
@@ -79,7 +79,7 @@ Ben's Dead By Daylight Blog is a website for all things related to the asymmetri
 
 ## Deployment
 
-his project was deployed using Heroku by doing the following:
+This project was deployed using Heroku by doing the following:
 - Creating a new Heroku app.
 - Linking the Heroku app to the Github repository.
 - Click on **Deploy**.

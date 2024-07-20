@@ -9,6 +9,7 @@ class TestBlogViews(TestCase):
 
 
     def setUp(self):
+        """Create a superuser and a blog post"""
         self.user = User.objects.create_superuser(
             username="myUsername", password="myPassword", email="test@test.com")
         self.post = Post(title="Blog title", author=self.user,
@@ -17,6 +18,7 @@ class TestBlogViews(TestCase):
         self.post.save()
 
     def test_successful_comment_submission(self):
+        """Test for posting a comment on a post"""
         self.client.login(username="myUsername", password="myPassword")
         post_data = {
             'body': 'This is a test comment.'

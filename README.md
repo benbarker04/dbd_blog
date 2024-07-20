@@ -58,7 +58,9 @@ Ben's Dead By Daylight Blog is a website for all things related to the asymmetri
 * I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the dev tools device toolbar.
 * I have confirmed that all sections and pages are all readable and easy to understand.
 * I have confirmed that the form works: requires entry in every field.
-* I have run tests using automated testing and confirmed everything being tested works.
+* I have run tests using Django testing and confirmed that the application behaves as expected.
+
+
 
 ## Bugs
 
